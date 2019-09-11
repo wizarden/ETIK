@@ -1,0 +1,27 @@
+﻿@using Domain.Entities
+
+@model IEnumerable<IZD>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+    <div>
+@foreach (IZD izd in Model)
+{
+    <div>
+        @izd.name
+    </div>
+}
+
+    </div>
+</body>
+</html>
+
+
+
