@@ -25,6 +25,7 @@ namespace ETIK
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/jquery.dataTables.min.css",
                       "~/Content/site.css"));
         }
     }
